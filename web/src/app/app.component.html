@@ -1,3 +1,25 @@
-<h1>
-  {{title}}
-</h1>
+<section class="list-area">
+    <h3>Cats</h3>
+    <ul class="item-list">
+        <li class="item" *ngFor="let item of cats">
+            <img [src]="item.icon">
+            <p>name : {{item.name}}</p>
+            <p>life : {{item.life}}</p>
+            <p>at : {{item.attack}}</p>
+            <p>dp : {{item.defense}}</p>
+        </li>
+    </ul>
+
+    <h3>Zombies</h3>
+    <ul class="item-list">
+        <li class="item" *ngFor="let item of zoms">
+            <img [src]="item.icon">
+            <p>name : {{item.name}}</p>
+            <p>life : {{item.life}}</p>
+            <p>at : {{item.attack}}</p>
+            <p>dp : {{item.defense}}</p>
+        </li>
+    </ul>
+
+
+</section>

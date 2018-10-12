@@ -1,0 +1,68 @@
+[
+    {
+        "model": "quickstart.Cat",
+        "pk": 1,
+        "fields":     {
+            "name": "Minou",
+            "icon": "http://i.giphy.com/l4KhS0BOFBhU2SYIU.gif",
+            "life": 100,
+            "attack": 28,
+            "defense": 12
+        }
+    },
+    {
+        "model": "quickstart.Cat",
+        "pk": 2,
+        "fields":     {
+            "name": "Lion",
+            "icon": "http://i.giphy.com/l41lTn1liPDzkv0Zi.gif",
+            "life": 65,
+            "attack": 10,
+            "defense": 27
+        }
+    },
+    {
+        "model": "quickstart.Cat",
+        "pk": 3,
+        "fields":     {
+            "name": "Litchi",
+            "icon": "http://i.giphy.com/emWySpOLFLUAM.gif",
+            "life": 80,
+            "attack": 48,
+            "defense": 1
+        }
+    },
+    {
+        "model": "quickstart.Zombie",
+        "pk": 1,
+        "fields":     {
+            "name": "Beyonce",
+            "icon": "http://i.giphy.com/hyYMouu2tR5mM.gif",
+            "life": 98,
+            "attack": 24,
+            "defense": 5
+        }
+    },
+    {
+        "model": "quickstart.Zombie",
+        "pk": 2,
+        "fields":     {
+            "name": "Franck",
+            "icon": "http://i.giphy.com/4cfV5bkDSYUx2.gif",
+            "life": 87,
+            "attack": 5,
+            "defense": 25
+        }
+    },
+    {
+        "model": "quickstart.Zombie",
+        "pk": 3,
+        "fields":     {
+            "name": "Freak",
+            "icon": "http://i.giphy.com/NKSq1x79SPTGg.gif",
+            "life": 75,
+            "attack": 45,
+            "defense": 7
+        }
+    }
+]

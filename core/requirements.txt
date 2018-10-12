@@ -5,3 +5,4 @@ django-rest-swagger==2.1.1
 requests==2.13.0
 python-dateutil==2.6.0
 pika==0.10.0
+django-cors-headers

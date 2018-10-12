@@ -1,0 +1,22 @@
+html,body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+.item-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.item {
+    width: 33%;
+    text-align: center;
+}
+.item img{
+    max-width: 50px;
+    max-height: 50px;
+    margin: 10px;
+}

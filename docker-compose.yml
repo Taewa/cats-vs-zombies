@@ -7,7 +7,8 @@ services:
   core:
     container_name: gwapit-test-core
     build: ./core
-    command: bash -c "./manage.py migrate; while :; do ./manage.py runserver 0.0.0.0:9081; sleep 1; done"
+    command: bash -c "./manage.py migrate; ./manage.py loaddata fighters; while :; do ./manage.py runserver 0.0.0.0:9081  --settings=gwapit.settings; sleep 1; done"
+
     volumes:
       - ./core:/opt/gwapit
     ports:
